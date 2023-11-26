@@ -1,0 +1,150 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cash-withdrwal-container {
+  background-color: #150b3e;
+  width: 80%;
+  border-radius: 16px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .cash-withdrwal-container {
+    width: 54%;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    max-width: 422px;
+  }
+}
+
+.user-details-container {
+  display: flex;
+}
+
+.initia-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .initia-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+
+.initial {
+  color: #7c3aed;
+  font-family: 'roboto';
+  font-size: 34px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 16px;
+  font-family: 'roboto';
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 16px;
+  font-family: 'roboto';
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 32px;
+
+    margin-top: 8px;
+  }
+
+  .balance {
+    font-size: 32px;
+  }
+  .currency {
+    font-size: 24px;
+  }
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 24px;
+  font-family: 'roboto';
+  font-weight: 600;
+  margin: 0;
+}
+.currency {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-weight: 600;
+  margin-top: 16px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .withdraw {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+}
+
+.choose-sum {
+  color: #585076;
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .choose-sum {
+    font-size: 14px;
+
+    margin-bottom: 24px;
+  }
+}
+
+.denomination-list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
